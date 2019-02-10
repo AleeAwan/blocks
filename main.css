@@ -1,0 +1,38 @@
+.container {
+    margin: 20px;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+.box {
+    width: 25%;
+    float: left;
+    height: 100%;
+    border: 10px solid #fff;
+    box-sizing: border-box;
+}
+.box-dark {
+    position: relative;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    background-color: #3c3d3d;
+}
+.box-grey {
+    position: relative;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    background-color: #a6a8a8;
+}
+.number {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-size: 40px;
+}
+.clearfix {
+    clear: both;
+}
